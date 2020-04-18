@@ -28,7 +28,8 @@ body{
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-around;
-        margin-top: 50px; 
+        padding: 20px;
+        font-family: cursive
     }
       
         a {
@@ -38,7 +39,7 @@ body{
         font-size: 20px;
         }
 
-    #chamada1{
+    .chamada{
         margin: 20px;
         padding:5px;
         background-color: rgba(21, 255, 21, 0.178);
@@ -80,14 +81,6 @@ body{
             padding:3%
         }
     
-    #chamada2{
-        margin: 20px;
-        padding:5px;
-        background-color: rgba(21, 255, 21, 0.178);
-        font-weight: 900;
-        text-align: center;
-    }
-    
     #noticia2{
         display: flex;
         flex-direction: column;
@@ -110,4 +103,14 @@ body{
             width: 90%;
             padding-left: 5%;
         }
-        
+
+        .podcast{
+            width: 95%;
+            height: 200px;
+            margin-left: 2%;
+        }
+        .videos{
+            width: 95%;
+            height: 400px;
+            margin-left: 2%;
+        }
